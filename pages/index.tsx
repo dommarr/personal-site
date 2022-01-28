@@ -38,9 +38,9 @@ export default function Home() {
           <div className="absolute inset-y-0 left-0 h-48 w-48 animate-blobr rounded-full bg-sky-300 opacity-70 mix-blend-multiply blur-xl filter dark:bg-red-500 dark:mix-blend-normal dark:blur-2xl sm:left-12 lg:-top-6 lg:-left-4"></div>
           <div className="animation-delay-4000 absolute inset-y-0 right-0 h-48 w-48 animate-blobr rounded-full bg-teal-300 opacity-70 mix-blend-multiply blur-xl filter dark:bg-white dark:mix-blend-normal dark:blur-2xl sm:right-12 lg:left-28 lg:top-6"></div>
           <div className="animation-delay-2000 absolute -bottom-12 h-48 w-48 animate-blobr rounded-full bg-cyan-300 opacity-70 mix-blend-multiply blur-xl filter dark:bg-blue-500 dark:mix-blend-normal dark:blur-2xl lg:left-56 lg:top-0"></div>
-          <div className="animation-delay-3000 absolute right-56 top-0 hidden h-48 w-48 animate-blob rounded-full bg-indigo-300 opacity-70 mix-blend-multiply blur-xl filter dark:bg-pink-500 dark:mix-blend-normal dark:blur-2xl lg:block"></div>
+          <div className="animation-delay-1000 absolute right-56 top-0 hidden h-48 w-48 animate-blob rounded-full bg-indigo-300 opacity-70 mix-blend-multiply blur-xl filter dark:bg-pink-500 dark:mix-blend-normal dark:blur-2xl lg:block"></div>
           <div className="animation-delay-5000 absolute right-28 top-6 hidden h-48 w-48 animate-blob rounded-full bg-blue-300 opacity-70 mix-blend-multiply blur-xl  filter dark:bg-red-500 dark:mix-blend-normal dark:blur-2xl lg:block"></div>
-          <div className="animation-delay-1000 absolute -top-6 -right-4 hidden h-48 w-48 animate-blob rounded-full bg-violet-300 opacity-70 mix-blend-multiply blur-xl  filter dark:bg-yellow-500 dark:mix-blend-normal dark:blur-2xl lg:block"></div>
+          <div className="animation-delay-3000 absolute -top-6 -right-4 hidden h-48 w-48 animate-blob rounded-full bg-violet-300 opacity-70 mix-blend-multiply blur-xl  filter dark:bg-yellow-500 dark:mix-blend-normal dark:blur-2xl lg:block"></div>
           <div className="flex max-w-4xl flex-col items-center justify-around sm:w-full lg:flex-row">
             <Link href="/portfolio">
               <a className="mt-6 w-80 rounded-xl bg-white bg-opacity-40 bg-clip-padding p-6 text-left text-slate-600 backdrop-blur-xl backdrop-filter hover:text-slate-800 dark:bg-slate-800 dark:bg-opacity-70 dark:text-gray-300 dark:hover:text-gray-100 sm:w-96">
@@ -52,7 +52,7 @@ export default function Home() {
             </Link>
 
             <a
-              href="https://nextjs.org/learn"
+              href="https://blog.dommarrone.com/"
               className="mt-6 w-80 rounded-xl bg-white bg-opacity-40 bg-clip-padding p-6 text-left text-slate-600 backdrop-blur-xl backdrop-filter hover:text-slate-800 dark:bg-slate-800 dark:bg-opacity-70 dark:text-gray-300 dark:hover:text-gray-100 sm:w-96"
             >
               <h3 className="text-2xl font-bold">Writing &rarr;</h3>

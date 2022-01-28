@@ -22,7 +22,7 @@ const projects = [
   },
   {
     name: 'Stir Fry',
-    date: '2017 - 2018',
+    date: '2020',
     alive: false,
     url: 'https://trystirfry.webflow.io/',
     type: 'HBS Rock Summer Fellows',

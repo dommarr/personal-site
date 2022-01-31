@@ -4,7 +4,7 @@ import { useTheme } from 'next-themes'
 import { useRouter } from 'next/router'
 import Link from 'next/link'
 
-export default function Nav() {
+export default function Navbar() {
   const router = useRouter()
   const { theme, setTheme } = useTheme()
 

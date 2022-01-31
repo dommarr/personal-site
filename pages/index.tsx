@@ -15,8 +15,8 @@ export default function Home() {
       </Head>
       <Navbar />
 
-      <main className="relative flex w-full flex-1 flex-col items-center justify-center px-4 pb-20 text-center md:px-20">
-        <h1 className="bg-gradient-to-r from-indigo-600 to-sky-600 bg-clip-text text-6xl font-bold text-transparent dark:from-gray-400 dark:to-gray-50">
+      <main className="relative flex w-full flex-1 flex-col items-center justify-start px-4 pt-12 pb-20 text-center md:justify-center md:px-20">
+        <h1 className="bg-gradient-to-r from-blue-700 to-blue-400 bg-clip-text text-6xl font-bold text-transparent dark:from-gray-400 dark:to-gray-50">
           Hi, I'm Dom!
         </h1>
 

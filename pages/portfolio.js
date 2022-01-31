@@ -79,9 +79,9 @@ export default function Portfolio() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
-      <div className="container mx-auto px-4 py-12 md:px-6 lg:px-8">
+      <main className="container mx-auto px-4 pt-12 pb-20 md:px-6 lg:px-8">
         <div className="mb-8 w-full text-center">
-          <h1 className="bg-gradient-to-r from-indigo-600 to-sky-600 bg-clip-text text-6xl font-bold text-transparent dark:from-gray-400 dark:to-gray-50">
+          <h1 className="bg-gradient-to-r from-blue-700 to-blue-400 bg-clip-text text-6xl font-bold text-transparent dark:from-gray-400 dark:to-gray-50">
             Portfolio
           </h1>
         </div>
@@ -173,7 +173,8 @@ export default function Portfolio() {
             </div>
           </div>
         </div>
-      </div>
+      </main>
+      <footer className="flex h-24 w-full items-center justify-center"></footer>
     </div>
   )
 }
